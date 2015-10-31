@@ -1,0 +1,18 @@
+{
+    "name": "xotelia/saasmetrics-php-client",
+    "description": "SaasMetrics PHP client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achille Guillon",
+            "email": "achille.guillon@gmail.com"
+        }
+    ]
+}
