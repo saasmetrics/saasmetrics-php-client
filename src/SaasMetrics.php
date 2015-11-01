@@ -148,3 +148,4 @@ class SaasMetrics
         return new Metric($this->client, $this->apiKey, 'netPromoterScore', $value, $date);
     }
 }
+
