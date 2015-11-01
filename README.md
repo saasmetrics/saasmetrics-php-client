@@ -1,5 +1,7 @@
 # SaasMetrics PHP Client
 
+[![Build Status](https://travis-ci.org/Akh0/saasmetrics-php-client.svg)](https://travis-ci.org/Akh0/saasmetrics-php-client) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Akh0/saasmetrics-php-client/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Akh0/saasmetrics-php-client/?branch=master)
+
 Simple PHP client for [SaasMetrics API](http://www.saasmetrics.co/docs/)
 
 ## Installation
