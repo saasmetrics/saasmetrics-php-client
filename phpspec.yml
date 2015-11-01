@@ -1,0 +1,4 @@
+suites:
+     saasmetrics:
+         namespace: SaasMetrics
+         psr4_prefix: SaasMetrics
