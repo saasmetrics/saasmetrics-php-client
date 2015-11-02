@@ -2,7 +2,7 @@
 
 namespace SaasMetrics;
 
-use DateTime;
+use DateTimeInterface;
 use GuzzleHttp\ClientInterface;
 
 class Metric
@@ -13,7 +13,7 @@ class Metric
     protected $value;
     protected $date;
 
-    public function __construct(ClientInterface $client, $apiKey, $metric, $value, DateTime $date)
+    public function __construct(ClientInterface $client, $apiKey, $metric, $value, DateTimeInterface $date)
     {
         $this->client = $client;
         $this->apiKey = $apiKey;
